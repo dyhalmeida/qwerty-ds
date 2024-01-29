@@ -3,9 +3,18 @@
   "license": "MIT",
   "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
   "devDependencies": {
     "@qwerty-ui/ts-config": "*",
     "@qwerty-ui/eslint-config": "*",
+    "tsup": "^8.0.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }

@@ -1,0 +1,12 @@
+{
+  "name": "@qwerty-ui/tokens",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@qwerty-ui/ts-config": "*",
+    "@qwerty-ui/eslint-config": "*",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

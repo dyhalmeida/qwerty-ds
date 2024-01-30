@@ -11,11 +11,13 @@
   "author": "Diego Almeida",
   "license": "MIT",
   "dependencies": {
+    "@qwerty-ui/tokens": "*",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@qwerty-ui/eslint-config": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@qwerty-ui/ts-config": "*",
+    "@qwerty-ui/eslint-config": "*",
     "@storybook/addon-essentials": "^7.6.10",
     "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.6.10",

@@ -19,5 +19,8 @@
     "tsup": "^8.0.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }

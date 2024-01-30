@@ -19,7 +19,9 @@
     "@storybook/react": "^7.6.10",
     "@storybook/react-vite": "^7.6.10",
     "@storybook/test": "^7.6.10",
+    "@vitejs/plugin-react": "^4.2.1",
     "prop-types": "^15.8.1",
-    "storybook": "^7.6.10"
+    "storybook": "^7.6.10",
+    "vite": "^5.0.12"
   }
 }

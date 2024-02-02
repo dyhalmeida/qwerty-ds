@@ -10,4 +10,4 @@ export default {
   },
 } as Meta<ITextProps>
 
-export const Primary: StoryObj<ITextProps> = {}
+export const Default: StoryObj<ITextProps> = {}

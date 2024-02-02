@@ -1,3 +1,6 @@
+export { Heading } from './components/Heading'
+export type { IHeadingProps } from './components/Heading'
+
 export { Text } from './components/Text'
 export type { ITextProps } from './components/Text'
 

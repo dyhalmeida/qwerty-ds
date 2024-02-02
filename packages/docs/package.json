@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "keywords": [],
   "author": "Diego Almeida",
   "license": "MIT",
   "dependencies": {
     "@qwerty-ui/tokens": "*",
+    "@qwerty-ui/react": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
